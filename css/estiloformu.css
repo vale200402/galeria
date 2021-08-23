@@ -1,0 +1,375 @@
+body{
+    background: url("../ima/fondo.png") ;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-content: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(245, 245, 245);/*rgb(252, 121, 46)*/
+}
+
+
+#cuadrouno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icono-menu{
+ 
+    position: relative;
+    z-index: 10;
+}
+
+.icono-menu img{
+    vertical-align: top;
+    width: 30px;
+    cursor: pointer;
+}
+
+.cont-menu{
+    background-color: rgb(248, 249, 250);
+    box-shadow: 2px 0px 5px 2px rgb(232, 62, 22);
+    width: 400px;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: blue;
+    transition: all .5s ease;
+}
+
+
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+
+
+.cont-menu ul li a{
+    color:black;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li a:hover{
+    background-color: rgb(232, 62, 22);
+    color: white;
+}
+
+
+
+.icono-menu{
+    background-color: rgba(245, 245, 245, 0);
+    width: 30%;
+    height: 25px;
+    margin-top: 16px;
+
+}
+
+
+.logo{
+    background: url("../ima/logo.PNG") no-repeat center center/cover;
+    width: 20%;
+    height: 60px;
+
+}
+
+.compra{
+    margin-top: 16px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 25px;
+
+}
+
+.compra a {
+
+    margin-left: 350px;
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+
+}
+
+.compra a :hover{    
+    color: rgb(252, 121, 46);
+    text-decoration: underline 1px solid rgb(252, 121, 46);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formulario {
+    background: rgba(232, 61, 22, 0.712);
+    text-align: center;
+    padding: 6em;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+   
+  }
+  
+  
+  
+  .formulario h2 {
+    color: #000000;
+    margin: 0;
+    height: 30px;
+  }
+  
+  .formulario .form {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+    box-shadow: none;
+    height: 25px;
+    margin: 8px 0;
+  }
+  
+  .formulario .submit-btn {
+    background: #ffffff;
+    border-radius: 50px;
+    border: 0;
+    color: #252020;
+    width: 50%;
+    height: 50px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+  }
+  
+  .formulario .submit-btn:hover {
+    background: rgb(252, 121, 46);
+    color: #ffffff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Con un ipad*/
+
+@media (max-width: 1024px){
+
+    .header{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        align-content: center;
+        justify-content: space-evenly;
+        border: 2px solid rgb(245, 245, 245);/*rgb(252, 121, 46)*/
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    
+    
+    
+    #cuadrouno{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .icono-menu{
+     
+        position: relative;
+        z-index: 10;
+    }
+    
+    .icono-menu img{
+        vertical-align: top;
+        width: 40px;
+        cursor: pointer;
+    } 
+    
+    .cont-menu{
+        background-color: rgb(248, 249, 250);
+        box-shadow: 2px 0px 5px 2px rgb(232, 62, 22);
+        width: 400px;
+        height: 80vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s ease;
+    }
+
+    
+    
+    .cont-menu ul{
+        padding: 100px 0px 20px 0px;
+        list-style: none;
+    }
+    
+    
+    
+    .cont-menu ul li a{
+        color:black;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px 50px;
+        cursor: pointer;
+    }
+    
+    .cont-menu ul li a:hover{
+        background-color: rgb(232, 62, 22);
+        color: white;
+    }
+    
+    
+    
+    .icono-menu{
+        width: 10%;
+        height: 25px;
+        margin-top: 16px;
+    
+    }
+    
+    
+    .logo{
+        background: url("../ima/logo.PNG") no-repeat center center/cover;
+        width: 30%;
+        height: 60px;
+    
+    }
+    
+    .compra{
+        margin-top: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 10%;
+        height: 25px;
+    
+    }
+    
+    .compra a {
+        margin-left: 12px;
+        color:black;
+        text-decoration: none;
+        font-size: 1.8em;
+    
+    
+    }
+    
+    .compra a :hover{    
+        color: rgb(252, 121, 46);
+        text-decoration: underline 1px solid rgb(252, 121, 46);
+    }
+    
+
+    .formulario {
+        background: rgba(232, 61, 22, 0.712);
+        text-align: center;
+        padding: 6em;
+        width: 400px;
+        height: 600px;
+        margin-top: 20px;
+        margin-left: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+       
+      }
+
+
+      .formulario h2 {
+        color: #000000;
+        margin: 1px;
+        height: 30px;
+        font-size:x-large;
+      }
+      
+      .formulario .form {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid;
+        border-radius: 10px;
+        box-shadow: none;
+        height: 30px;
+        margin: 20px 0;
+        font-size:larger;
+      }
+      
+      .formulario .submit-btn {
+        background: #ffffff;
+        border-radius: 50px;
+        border: 0;
+        color: #252020;
+        width: 50%;
+        height: 50px;
+        margin: 30px auto;
+        margin-bottom: 10px;
+        font-size:larger;
+      }
+
+
+}
+
+
+
+
+
+
+

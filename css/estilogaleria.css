@@ -1,0 +1,1214 @@
+body{
+    background: url("../ima/fondo.png") ;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+
+
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-content: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(245, 245, 245);/*rgb(252, 121, 46)*/
+    margin-bottom: 20px;
+}
+
+
+
+
+#cuadrouno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icono-menu{
+ 
+    position: relative;
+    z-index: 10;
+}
+
+.icono-menu img{
+    vertical-align: top;
+    width: 30px;
+    cursor: pointer;
+}
+
+.cont-menu{
+    background-color: rgb(248, 249, 250);
+    box-shadow: 2px 0px 5px 2px rgb(232, 62, 22);
+    width: 400px;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: blue;
+    transition: all .5s ease;
+}
+
+
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+
+
+.cont-menu ul li a{
+    color:black;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li a:hover{
+    background-color: rgb(232, 62, 22);
+    color: white;
+}
+
+
+
+.icono-menu{
+    background-color: rgba(245, 245, 245, 0);
+    width: 30%;
+    height: 25px;
+    margin-top: 16px;
+
+}
+
+
+.logo{
+    background: url("../ima/logo.PNG") no-repeat center center/cover;
+    width: 20%;
+    height: 60px;
+
+}
+
+.compra{
+    margin-top: 16px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 25px;
+
+}
+
+.compra a {
+
+    margin-left: 350px;
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+
+}
+
+.compra a :hover{    
+    color: rgb(252, 121, 46);
+    text-decoration: underline 1px solid rgb(252, 121, 46);
+}
+
+.titgal{
+align-items: center;
+text-decoration: none;
+font-size: 2.0em;
+color: rgb(232, 62, 22);
+margin-top: 100px;
+margin-left: 100px;
+padding: 5px;
+margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor{
+    /*background-color:yellow;*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 1200px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.cajas{
+    background-color: rgba(169, 169, 169, 0.479);
+    width: 20%;
+    height: 250px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+
+#cajauno{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.descripcion1{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre1{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.pintura1{
+    background: url("../ima/uno.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+    margin-bottom: -2px;
+}
+
+
+.descripcion2{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre2{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.pintura2{
+    background: url("../ima/dos.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+    margin-bottom: -2px;
+}
+
+.descripcion3{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre3{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura3{
+    background: url("../ima/tres.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+
+}
+
+
+.descripcion4{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre4{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+
+}
+
+.pintura4{
+    background: url("../ima/cuatro.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+    margin-bottom: -2px;
+
+}
+
+
+
+.descripcion5{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre5{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura5{
+    background: url("../ima/cinco.jpg")no-repeat center center/cover ;
+    width: 40%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+
+
+.descripcion6{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.85em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre6{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura6{
+    background: url("../ima/seis.jpg")no-repeat center center/cover ;
+    width: 40%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+.descripcion7{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre7{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 0.95em;
+}
+.pintura7{
+    background: url("../ima/siete.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+    margin-bottom: -2px;
+}
+
+.descripcion8{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.82em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre8{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura8{
+    background: url("../ima/ocho.jpg")no-repeat center center/cover ;
+    width: 40%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+
+
+.descripcion9{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.85em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre9{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura9{
+    background: url("../ima/nueve.jpg")no-repeat center center/cover ;
+    width: 40%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+
+.descripcion10{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre10{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura10{
+    background: url("../ima/diez.jpg")no-repeat center center/cover ;
+    width: 50%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+
+.descripcion11{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.79em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre11{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura11{
+    background: url("../ima/once.jpg")no-repeat center center/cover ;
+    width: 40%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+
+.descripcion12{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.85em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre12{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.pintura12{
+    background: url("../ima/doce.jpg")no-repeat center center/cover ;
+    width: 40%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+.descripcion13{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.8em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre13{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.pintura13{
+    background: url("../ima/trece.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+    margin-bottom: -2px;
+}
+
+.descripcion14{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre14{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+
+.pintura14{
+    background: url("../ima/catorce.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+    margin-bottom: -2px;
+}
+
+
+.descripcion15{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.78em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre15{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+
+.pintura15{
+    background: url("../ima/quince.jpg")no-repeat center center/cover ;
+    width: 40%;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: -2px;
+}
+
+
+.descripcion16{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+    font-size: 0.73em;
+    text-align: justify;
+    padding: 2px;
+
+}
+.nombre16{
+    background-color: rgb(252, 121, 46);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.pintura16{
+    background: url("../ima/di.jpg")no-repeat center center/cover ;
+    width: 100%;
+    height: 120px;
+    margin-bottom: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Con un ipad*/
+
+@media (max-width: 1024px){
+
+    body{
+        background: url("../ima/fondo.png") ;
+        font-family: Helvetica,Arial,sans-serif;
+    }
+
+
+    .header{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        align-content: center;
+        justify-content: space-evenly;
+        border: 2px solid rgb(245, 245, 245);/*rgb(252, 121, 46)*/
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    
+    
+    
+    #cuadrouno{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .icono-menu{
+     
+        position: relative;
+        z-index: 10;
+    }
+    
+    .icono-menu img{
+        vertical-align: top;
+        width: 40px;
+        cursor: pointer;
+    } 
+    
+    .cont-menu{
+        background-color: rgb(248, 249, 250);
+        box-shadow: 2px 0px 5px 2px rgb(232, 62, 22);
+        width: 400px;
+        height: 80vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s ease;
+    }
+
+    
+    
+    .cont-menu ul{
+        padding: 100px 0px 20px 0px;
+        list-style: none;
+    }
+    
+    
+    
+    .cont-menu ul li a{
+        color:black;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px 50px;
+        cursor: pointer;
+    }
+    
+    .cont-menu ul li a:hover{
+        background-color: rgb(232, 62, 22);
+        color: white;
+    }
+    
+    
+    
+    .icono-menu{
+        width: 10%;
+        height: 25px;
+        margin-top: 16px;
+    
+    }
+    
+    
+    .logo{
+        background: url("../ima/logo.PNG") no-repeat center center/cover;
+        width: 30%;
+        height: 60px;
+    
+    }
+    
+    .compra{
+        margin-top: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 10%;
+        height: 25px;
+    
+    }
+    
+    .compra a {
+        margin-left: 12px;
+        color:black;
+        text-decoration: none;
+        font-size: 1.8em;
+    
+    
+    }
+    
+    .compra a :hover{    
+        color: rgb(252, 121, 46);
+        text-decoration: underline 1px solid rgb(252, 121, 46);
+    }
+    
+    .titgal{
+    align-items: center;
+    text-decoration: none;
+    font-size: 2.0em;
+    color: rgb(232, 62, 22);
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .contenedor{
+        /*background-color:yellow;*/
+        display: flex;
+        flex-wrap: wrap;
+        height: 2800px;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    
+    .cajas{
+        background-color: rgba(169, 169, 169, 0.479);
+        width: 45%;
+        height: 300px;
+        margin-bottom: 10px;
+        border: 5px solid black;
+    }
+
+    .descripcion1{
+
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre1{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura1{
+        background: url("../ima/uno.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+        margin-bottom: -2px;
+    }
+
+    .descripcion2{
+
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre2{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura2{
+        background: url("../ima/dos.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+        margin-bottom: -2px;
+    }
+
+    .descripcion3{
+
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre3{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura3{
+        background: url("../ima/tres.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+    
+    }
+    
+    
+    .descripcion4{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre4{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura4{
+        background: url("../ima/cuatro.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+        margin-bottom: -2px;
+    
+    }
+
+
+    .descripcion5{
+
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.1em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre5{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura5{
+        background: url("../ima/cinco.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+    
+    
+    
+    .descripcion6{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.1em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre6{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura6{
+        background: url("../ima/seis.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+
+    .descripcion7{
+
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.12em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre7{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .pintura7{
+        background: url("../ima/siete.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+        margin-bottom: -2px;
+    }
+    
+    .descripcion8{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.0em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre8{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura8{
+        background: url("../ima/ocho.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+
+    .descripcion9{
+
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.1em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre9{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura9{
+        background: url("../ima/nueve.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+    
+    
+    .descripcion10{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre10{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura10{
+        background: url("../ima/diez.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+    
+    
+    .descripcion11{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.0em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre11{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    
+    .pintura11{
+        background: url("../ima/once.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+    
+    
+    .descripcion12{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.1em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre12{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    
+    .pintura12{
+        background: url("../ima/doce.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+
+    .descripcion13{
+
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.1em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre13{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura13{
+        background: url("../ima/trece.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+        margin-bottom: -2px;
+    }
+    
+    .descripcion14{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.2em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre14{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 32px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura14{
+        background: url("../ima/catorce.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+        margin-bottom: -2px;
+    }
+    
+    
+    .descripcion15{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 1.0em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre15{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura15{
+        background: url("../ima/quince.jpg")no-repeat center center/cover ;
+        width: 30%;
+        height: 180px;
+        margin-left: 160px;
+        margin-bottom: -2px;
+    }
+    
+    
+    .descripcion16{
+    
+        width: 100%;
+        height: 100px;
+        margin-bottom: 2px;
+        font-size: 0.95em;
+        text-align: justify;
+        padding: 2px;
+    
+    }
+    .nombre16{
+        background-color: rgb(252, 121, 46);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    .pintura16{
+        background: url("../ima/di.jpg")no-repeat center center/cover ;
+        width: 100%;
+        height: 180px;
+        margin-bottom: -2px;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+
+

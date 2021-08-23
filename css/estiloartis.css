@@ -1,0 +1,597 @@
+body{
+    background: url("../ima/fondo.png") ;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    align-content: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(245, 245, 245);/*rgb(252, 121, 46)*/
+}
+
+
+#cuadrouno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icono-menu{
+ 
+    position: relative;
+    z-index: 10;
+}
+
+.icono-menu img{
+    vertical-align: top;
+    width: 30px;
+    cursor: pointer;
+}
+
+.cont-menu{
+    background-color: rgb(248, 249, 250);
+    box-shadow: 2px 0px 5px 2px rgb(232, 62, 22);
+    width: 400px;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: blue;
+    transition: all .5s ease;
+}
+
+
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+
+
+.cont-menu ul li a{
+    color:black;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li a:hover{
+    background-color: rgb(232, 62, 22);
+    color: white;
+}
+
+
+
+.icono-menu{
+    background-color: rgba(245, 245, 245, 0);
+    width: 30%;
+    height: 25px;
+    margin-top: 16px;
+
+}
+
+
+.logo{
+    background: url("../ima/logo.PNG") no-repeat center center/cover;
+    width: 20%;
+    height: 60px;
+
+}
+
+.compra{
+    margin-top: 16px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 25px;
+
+}
+
+.compra a {
+
+    margin-left: 350px;
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+
+}
+
+.compra a :hover{    
+    color: rgb(252, 121, 46);
+    text-decoration: underline 1px solid rgb(252, 121, 46);
+}
+
+.titart{
+    align-items: center;
+    text-decoration: none;
+    font-size: 2.0em;
+    color: rgb(232, 62, 22);
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .parte1{
+        width: 25%;
+        height: 350px;
+    
+       
+    }
+    
+    .parte1 ul li{
+        padding: -5px;
+        display: inline-block;
+        margin-left: 80px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+    .parte1 ul li a{  
+        padding: 1px;
+        color: black;
+        text-decoration: none;
+        font-size: 0.8em;
+        background-color: rgb(252, 121, 46);;
+        border-radius: 5px 5px 5px 5px;
+    }
+    
+    .parte1 ul li a:hover{    
+        height: 40px;
+        color: white;
+        text-decoration: none;
+        text-decoration: underline 1px solid  rgb(255, 255, 255);
+    }
+
+
+
+
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 2800px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.cajas{
+    background-color: rgba(169, 169, 169, 0.479);
+    width: 80%;
+    height: 250px;
+    margin-bottom: 5px;
+    border: 8px solid black;
+}
+
+#cajauno{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nombre1{
+    background-color: rgb(232, 62, 22);;
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+
+}
+.persona1{
+    background: url("../ima/per1.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+.biogra1{
+    width: 75%;
+    height: 200px;
+    padding-left: 3px;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+
+
+.persona2{
+    background: url("../ima/per2.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+
+.persona3{
+    background: url("../ima/per3.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+.persona4{
+    background: url("../ima/per4.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+.nombre5{
+    background-color: rgb(232, 62, 22);;
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+
+}
+.persona5{
+    background: url("../ima/per5.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+.persona6{
+    background: url("../ima/per6.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+
+.persona7{
+    background: url("../ima/per7.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+.persona8{
+    background: url("../ima/per8.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+.persona9{
+    background: url("../ima/per9.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+
+.persona10{
+    background: url("../ima/per10.jpg")no-repeat center center/cover ;
+    width: 20%;
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Con un ipad*/
+
+@media (max-width: 1024px){
+
+    .header{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        align-content: center;
+        justify-content: space-evenly;
+        border: 2px solid rgb(245, 245, 245);/*rgb(252, 121, 46)*/
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    
+    
+    
+    #cuadrouno{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .icono-menu{
+     
+        position: relative;
+        z-index: 10;
+    }
+    
+    .icono-menu img{
+        vertical-align: top;
+        width: 40px;
+        cursor: pointer;
+    } 
+    
+    .cont-menu{
+        background-color: rgb(248, 249, 250);
+        box-shadow: 2px 0px 5px 2px rgb(232, 62, 22);
+        width: 400px;
+        height: 80vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s ease;
+    }
+
+    
+    
+    .cont-menu ul{
+        padding: 100px 0px 20px 0px;
+        list-style: none;
+    }
+    
+    
+    
+    .cont-menu ul li a{
+        color:black;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px 50px;
+        cursor: pointer;
+    }
+    
+    .cont-menu ul li a:hover{
+        background-color: rgb(232, 62, 22);
+        color: white;
+    }
+    
+    
+    
+    .icono-menu{
+        width: 10%;
+        height: 25px;
+        margin-top: 16px;
+    
+    }
+    
+    
+    .logo{
+        background: url("../ima/logo.PNG") no-repeat center center/cover;
+        width: 30%;
+        height: 60px;
+    
+    }
+    
+    .compra{
+        margin-top: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 10%;
+        height: 25px;
+    
+    }
+    
+    .compra a {
+        margin-left: 12px;
+        color:black;
+        text-decoration: none;
+        font-size: 1.8em;
+    
+    
+    }
+    
+    .compra a :hover{    
+        color: rgb(252, 121, 46);
+        text-decoration: underline 1px solid rgb(252, 121, 46);
+    }
+    
+    .titart{
+        align-items: center;
+        text-decoration: none;
+        font-size: 2.0em;
+        color: rgb(232, 62, 22);
+        margin-top: 100px;
+        margin-left: 100px;
+        padding: 5px;
+        margin-bottom: 20px;
+        
+        }
+
+
+
+        .parte1{
+            width: 50%;
+            height: 450px;
+        
+           
+        }
+        
+        .parte1 ul li{
+            padding: -5px;
+            display: inline-block;
+            margin-left: 80px;
+            margin-top: 10px;
+            margin-bottom: 3px;
+        }
+        .parte1 ul li a{  
+            padding: 1px;
+            color: black;
+            text-decoration: none;
+            font-size: 1.5em;
+            background-color: rgb(252, 121, 46);;
+            border-radius: 5px 5px 5px 5px;
+        }
+        
+        .parte1 ul li a:hover{    
+            height: 40px;
+            color: white;
+            text-decoration: none;
+            text-decoration: underline 1px solid  rgb(255, 255, 255);
+        }
+    
+  
+        .contenedor{
+            display: flex;
+            flex-wrap: wrap;
+            height: 4400px;
+            align-content: center;
+            justify-content: space-evenly;
+        }
+        
+        .cajas{
+            background-color: rgba(169, 169, 169, 0.479);
+            width: 98%;
+            height: 410px;
+            margin-bottom: 5px;
+            border: 8px solid black;
+        }
+
+        .nombre1{
+            background-color: rgb(232, 62, 22);;
+            width: 100%;
+            height: 20px;
+            padding: 10px;
+            font-size: 1.5em;
+        
+        }
+        .persona1{
+            background: url("../ima/per1.jpg")no-repeat center center/cover ;
+            width: 20%;
+            height: 250px;
+            margin-top: -40px;
+            margin-left: 15px;
+        
+        }
+        
+        .biogra1{
+            width: 75%;
+            height: 200px;
+            padding-left: 3px;
+            text-align: justify;
+            padding-top: -500px;
+            font-size: 1.3em;
+
+        }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
